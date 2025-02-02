@@ -1,0 +1,71 @@
+.profilesContainer {
+    background-color: #1f1e1f;
+    color: white;
+    padding: 20px;
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 500px;
+    border: 1px solid #514f4f;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+.profileHead {
+    margin: 0;
+    color: #ffc76c;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 10px;
+    border-bottom: 1px solid #514f4f;
+}
+
+.profileName {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.profileName img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profileName p {
+    color: #d795f9;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description p {
+    color: #a4c591;
+    font-size: 16px;
+    margin: 5px;
+
+}
+
+.profileId p {
+    color: #a4c591;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.profileId a {
+    text-decoration: none;
+    color: #ffc76c;
+    font-weight: bold;
+}
+
+.profileId a:hover {
+    color: #d795f9;
+}

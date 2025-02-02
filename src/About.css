@@ -1,0 +1,66 @@
+.aboutDetails {
+    background-color: #1f1e1f;
+    color: white;
+    padding: 20px;
+    width: 63%;
+    position: absolute;
+    bottom: -400px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 450px;
+    gap:20px;
+}
+
+#aboutMeText {
+    margin-left: 20px;
+    color: #ffc76c;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-container {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.detailsHeading {
+    color: #ffc76c;
+    margin-bottom: 10px;
+}
+
+.detailsBox {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    margin-top: 90px;
+}
+
+.key {
+    margin-left: 40px;
+    color: #d795f9;
+}
+
+.value {
+    color: #a4c591;
+}
+
+.number {
+    color: #6abaff;
+}
+
+a {
+    color: #ffc76c;
+}
+
+a:hover {
+    color: #d795f9;
+}

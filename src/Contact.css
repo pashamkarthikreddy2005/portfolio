@@ -1,0 +1,47 @@
+.contactContainer {
+    background-color: #1f1e1f;
+    color: white;
+    padding: 20px;
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #514f4f;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #ffc76c;
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.iconsContainer a {
+    font-size: 30px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#linkedIn:hover{
+    color:#0077B5;
+}
+#git:hover{
+    color:grey;
+}
+#insta:hover{
+    color:#DD2A7B;
+}
+#mail:hover{
+    color:#BB001B;
+}
