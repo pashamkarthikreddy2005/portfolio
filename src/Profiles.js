@@ -12,7 +12,7 @@ const Profiles = () => {
                     <p style={{ color: "white" }}><strong>LeetCode</strong></p>
                 </div>
                 <div className="description">
-                    <p style={{ color: "#a4c591" }}><strong>Problems Solved:</strong> 752</p>
+                    <p style={{ color: "#a4c591" }}><strong>Problems Solved:</strong> 751</p>
                     <p style={{ color: "#a4c591" }}><strong>Contest Rating:</strong> 1732</p>
                 </div>
                 <div className="profileId">
