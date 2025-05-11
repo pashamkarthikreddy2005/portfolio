@@ -6,7 +6,6 @@ const Profiles = () => {
         <div className="profilesContainer">
             <h1 className="profileHead">Coding Profiles</h1>
 
-
             <div className="profile">
                 <div className="profileName">
                     <img src="leetcode.webp" alt="LeetCode Logo" />

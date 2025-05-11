@@ -3,9 +3,9 @@ import './About.css';
 
 const About = () => {
     const details = {
-        name: 'Pasham Karthik Reddy',
-        degree: 'B.Tech in CSE',
-        college: 'Vardhaman College of Engineering',
+        name:'Pasham Karthik Reddy',
+        degree:'B.Tech in CSE',
+        college:'Vardhaman College of Engineering',
         age: 20
     };
 
@@ -30,13 +30,13 @@ const About = () => {
                     <pre>
 {`{
 `}
-        <span className="key">name</span>: <span className="value">'{details.name}'</span>,
+        <span className="key">Name:</span><span className="value">'{details.name}'</span>,
         <br/>
-        <span className="key">degree</span>: <span className="value">'{details.degree}'</span>,
+        <span className="key">Degree:</span><span className="value">'{details.degree}'</span>,
         <br/>
-        <span className="key">college</span>: <span className="value">'{details.college}'</span>,
+        <span className="key">College:</span><span className="value">'{details.college}'</span>,
         <br/>
-        <span className="key">age</span>: <span className="number">{details.age}</span>
+        <span className="key">Age:</span><span className="number">{details.age}</span>
         <br/>
 {`}`}
                     </pre>

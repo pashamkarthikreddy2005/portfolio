@@ -9,14 +9,13 @@
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    border: 1px solid #514f4f;
+    border: 1px solid white;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
 }
 
 .skillsHead {
     color: #ffc76c;
-    font-size: 24px;
     text-align: left;
     margin-bottom: 15px;
 }
@@ -25,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     gap:200px;
+    height:300px;
     margin:0 50px;
 }
 
@@ -34,24 +34,24 @@
 
 .category {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .codeBlock {
     padding: 15px;
     border-radius: 5px;
-    font-size: 30px;
-    white-space: pre-wrap;
-    overflow: auto;
-    max-height: 200px;
+    font-size: 20px;
+    height:100%;
+    max-height: 250px;
 }
 
 .skillRow {
     display: flex;
     justify-content: space-between;
+
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 30px;
 }
 
@@ -68,4 +68,25 @@
 .stars {
     color: white;
     font-size: 19.5px;
+}
+@media (max-width: 768px) {
+    .Skills {
+        width:83%;
+        height:600px;
+    }
+    .PnT{
+        display: flex;
+        flex-direction:column;
+        margin:0px;
+        gap:0px;
+    }
+    .column{
+        width:90%;
+        margin:10px;
+        border-bottom: 1px solid grey;
+        
+    }
+    .codeBlock{
+        margin:0px;
+    }
 }

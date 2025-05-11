@@ -5,7 +5,7 @@
     width: 63%;
     margin: 0 auto;
     margin-top: 100px;
-    border: 1px solid #514f4f;
+    border: 1px solid white;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -48,4 +48,9 @@ h1{
 
 .project a:hover {
     color: #a4c591;
+}
+@media (max-width: 768px) {
+    .projectsContainer {
+        width:83%;
+    }
 }

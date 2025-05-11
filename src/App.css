@@ -17,9 +17,6 @@ body, html {
   scrollbar-color: rgb(70, 70, 70) #1a1a1a;
   scrollbar-width: thin;
 }
-.profiles{
-  margin-top:100px;
-}
 .star {
   position: absolute;
   background-color: white;

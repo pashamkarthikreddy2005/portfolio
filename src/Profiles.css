@@ -4,8 +4,8 @@
     padding: 20px;
     width: 63%;
     margin: 0 auto;
+    border: 1px solid white;
     margin-top: 500px;
-    border: 1px solid #514f4f;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -18,7 +18,7 @@
     color: #ffc76c;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .profile {
@@ -68,4 +68,20 @@
 
 .profileId a:hover {
     color: #d795f9;
+}
+@media (max-width: 768px) {
+    .profilesContainer {
+        padding: 20px;
+        width: 83%;
+        margin: 0 auto;
+        margin-top: 800px;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+    
 }

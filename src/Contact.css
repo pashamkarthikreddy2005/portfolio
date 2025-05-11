@@ -5,7 +5,7 @@
     width: 63%;
     margin: 0 auto;
     margin-top: 100px;
-    border: 1px solid #514f4f;
+    border: 1px solid white;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -33,15 +33,43 @@ h1 {
     transition: color 0.3s ease;
 }
 
-#linkedIn:hover{
-    color:#0077B5;
+#linkedIn:hover {
+    color: #0077B5;
 }
-#git:hover{
-    color:grey;
+#git:hover {
+    color: grey;
 }
-#insta:hover{
-    color:#DD2A7B;
+#insta:hover {
+    color: #DD2A7B;
 }
-#mail:hover{
-    color:#BB001B;
+#mail:hover {
+    color: #BB001B;
 }
+
+@media (max-width: 768px) {
+    .contactContainer {
+        width: 83%;
+        margin-top: 50px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .iconsContainer {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .iconsContainer a {
+        font-size: 30px;
+    }
+}
+
+/* @media (max-width: 480px) {
+    .contactContainer {
+        width: 90%;
+    } */
+/* } */
