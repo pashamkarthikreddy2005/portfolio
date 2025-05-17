@@ -21,7 +21,7 @@ const About = () => {
                     DSA, web development, and cloud platforms. Currently, I’m working on improving my skills in
                     backend development and exploring AWS and Google Cloud.
                 </p>
-                Feel free to explore <a href="https://vardhamancoe-my.sharepoint.com/:b:/g/personal/pashamkarthikreddy22cs_student_vardhaman_org/EdxxN0YkC3RJqrXHl_GTZDsBBCuQX-AZesSYgh3a2th4UQ?e=aT46G5" target="_blank" rel="noreferrer">my detailed Resume</a> for more information about me.
+                Feel free to explore <a href="https://drive.google.com/file/d/1uXXuStZ_4c3OHFMBvmz6jffz8F9Cj3-e/view?usp=sharing" target="_blank" rel="noreferrer">my detailed Resume</a> for more information about me.
             </div>
 
             <div className="Details">

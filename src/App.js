@@ -6,6 +6,7 @@ import "./App.css"
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Experience from "./Experience";
 
 const App = () => {
     return (
@@ -16,6 +17,9 @@ const App = () => {
             </div>
             <div style={{marginTop:"100px"}}>
             <Profiles />
+            </div>
+            <div style={{marginTop:"100px"}}>
+            <Experience />
             </div>
             <div style={{marginTop:"100px"}}>
             <Skills />
