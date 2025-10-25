@@ -21,7 +21,9 @@ const About = () => {
                     DSA, web development, and cloud platforms. Currently, I’m working on improving my skills in
                     backend development and exploring AWS and Google Cloud.
                 </p>
-                Feel free to explore <a href="https://drive.google.com/file/d/1uXXuStZ_4c3OHFMBvmz6jffz8F9Cj3-e/view?usp=sharing" target="_blank" rel="noreferrer">my detailed Resume</a> for more information about me.
+                <p className="resume-link">
+                    Feel free to explore <a href="https://drive.google.com/file/d/18ry-NZe07FCmfR0cX7Ha9Srt3gycAIeJ/view?usp=sharing" target="_blank" rel="noreferrer">my detailed Resume</a> for more information about me.
+                </p>
             </div>
 
             <div className="Details">
@@ -29,16 +31,18 @@ const About = () => {
                 <div className="detailsBox">
                     <pre>
 {`{
-`}
-        <span className="key">Name:</span><span className="value">'{details.name}'</span>,
-        <br/>
-        <span className="key">Degree:</span><span className="value">'{details.degree}'</span>,
-        <br/>
-        <span className="key">College:</span><span className="value">'{details.college}'</span>,
-        <br/>
-        <span className="key">Age:</span><span className="number">{details.age}</span>
-        <br/>
-{`}`}
+
+  `}
+    <span className="key">Name:</span><span className="value">'{details.name}'</span>,
+    <br/>
+{`  `}<span className="key">Degree:</span><span className="value">'{details.degree}'</span>,
+    <br/>
+{`  `}<span className="key">College:</span><span className="value">'{details.college}'</span>,
+    <br/>
+{`  `}<span className="key">Age:</span><span className="number">{details.age}</span>
+    <br/>
+{`
+}`}
                     </pre>
                 </div>
             </div>
